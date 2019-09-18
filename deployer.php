@@ -1,8 +1,6 @@
 <?php
 
-if ( ! class_exists( 'WP_CLI' ) ) {
-	return;
-}
+namespace Curious\Deploy;
 
 use \WP_CLI;
 use \WP_CLI_Command;
