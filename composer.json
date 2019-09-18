@@ -1,0 +1,16 @@
+{
+    "name": "hcavanaugh/curious-deployer",
+    "description": "WordPress Plugin and Theme Deployer on clean WP install using WP CLI",
+    "authors": [
+        {
+            "name": "Heather Cavanaugh",
+            "email": "hcavanaugh@platinumplatypus.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "deployer.php"
+        ]
+    },
+    "require": {}
+}
