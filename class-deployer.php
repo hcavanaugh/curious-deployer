@@ -3,14 +3,13 @@
 add_action( 'cli_init', 'curious' );
 function curious() {
     public static $developer_plugins = [
-        'yoast',
+        'wordpress-seo',
         'advanced-custom-fields', 
         'classic-editor', 
         'autoptimize',
         'duplicate-post',
         'https://github.com/elementor/elementor/archive/master.zip',
         'https://github.com/wp-premium/gravityforms/archive/master.zip',
-        'user-role-editor',
         'wp-sitemap-page'
     ];
 
