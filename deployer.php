@@ -1,4 +1,9 @@
 <?php
+
+if ( ! class_exists( 'WP_CLI' ) ) {
+	return;
+}
+
 use \WP_CLI;
 use \WP_CLI_Command;
 /**
