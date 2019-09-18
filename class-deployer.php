@@ -1,15 +1,7 @@
 <?php
 
-namespace Curious\Deploy;
-
-use \WP_CLI;
-use \WP_CLI_Command;
-/**
- * Quick start new WP install. 
- * Run WP-CLI Command to bulk install and activate plugins
- * Install GeneratePress and child, activate child
- **/
-class Command extends WP_CLI_Command {
+add_action( 'cli_init', 'curious' );
+function curious() {
     public static $developer_plugins = [
         'yoast',
         'advanced-custom-fields', 
