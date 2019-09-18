@@ -24,7 +24,7 @@ class Command extends WP_CLI_Command {
 
 
     protected function enable_dev_plugins() {
-        WP_CLI::runcommand( 'plugin install ' . implode( ' ', self::$developer_plugins ). ' --activate --force' );
+        WP_CLI::runcommand( 'wp plugin install ' . implode( ' ', self::$developer_plugins ). ' --activate --force' );
     }
 
     protected function enable_themes() {
